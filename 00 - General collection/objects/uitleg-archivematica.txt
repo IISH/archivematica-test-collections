@@ -1,0 +1,54 @@
+handleiding bij Archivematica
+
+A. bestaat uit twee installaties: admin en storage. Het eerste deel is echt voor de functioneel beheerders, de tweede is meer technisch. Via de admin sla je uiteindelijk van alles op. In de storage wordt bepaald hoe en waar je dat doet. 
+
+Het proces begint bij een mapje waar je de bestanden moet offloaden die je wil ingesteren. Daarvoor zijn aparte ftp gegevens nodig. Heel vergelijkbaar met onze huidige offload naar de sorting area. Je kunt daar ongestructureerde bestanden aanbieden of bestanden waarvan al afgeleiden en metadata bestaan. In het laatste geval moet dat volgens een bepaalde structuur aangeleverd worden (staat in documentatie). 
+A. werkt zo dat hij op de achtergrond steeds bestanden in een ander mapje plaats en in dat mapje vindt een standaard verwerking plaats zodra het bestand daarin staat.
+
+Na het inloggen zie je tabbladen die bekend voorkomen. Als ergens als bestanden staan (bijv test) kun je er een keer op klikken om meer informatie te zien, bijv. alle microservices die afgelopen worden in de die fase. Even kort langs de tabbladen lopend:
+
+1. Transfer
+Hier kun je in de sortingarea zoeken naar bestanden waar je een sip van wil gaan maken. Het einde van deze fase is dat er een SIP gemaakt is. Als je bestanden bij elkaar hebt dan kun je transfer starten. Aan einde moet je dat nog bevestigen.
+
+2. Ingest
+Worden aantal stappen doorlopen die eindigen met creatie AIP.
+
+3. Archival Storage
+Laat zien wat er via A. opgeslagen is, maar kijkt niet rechtstreeks in storage. Geeft alleen door wat A geregistreerd heeft als opgeslagen en dan weer te bekijken/downloaden.
+
+4. Preservation planning
+Is een technische ondersteuning van alle tools en scripts. Laat zien wat ze doen en wat de regels en commando's zijn. Kunt ze hier ook aanpassen. Eigenlijk meer voor de technici.
+Onder formats kun je ook kijken wat het systeem kan herkennen. Als je bijv op pdf zoekt zie je ook wat er al voor soorten pdf in zitten.
+
+5. Access
+A. stopt na DIP, die kun je hier zien. Biedt API daarop, maar je hebt een ander systeem nodig om dit uit te lezen en aan te bieden aan gebruikers.
+
+6. Administration
+Kun je een aantal dingen configureren. Alles nu uitgevinkt, dat betekent dat ie dan bij die stap vraagt welke actie ie moet ondernemen. Kunt hier ook al van tevoren bepalen wat ie bij een stap moet doen.
+
+
+A. maakt interne PIDs die net als de onze tot stand komen, zelfde tekens. Alleen worden niet automatisch handles van gemaakt en gebonden. Dat moet toegevoegd.
+
+A. maakt standaard ook altijd afgeleiden, is in te stellen wat precies.
+
+A. maakt meteen METS voor eigen gebruik en levert bij de DIP een METS file die goed ectern bruikbaar en in opzet lijkt op onze METS. A. is sterk gebaseerdop PREMIS, METS en DC. In de METS wordt altijd een adminstrative metadata section aangemaakt met technische gegevens in een PREMIS vorm. Dat haalt ie standaard uit wat ie aantreft in eigen analyses, maar alle soorten metadata zijn ook bij de ingest toe te voegen in een metadata.csv (zie handleiding).
+A. tijdens ingest kun je per SIP de rechten aangeven, Ik zag niet of dat gedetailleerder kan. Dit wordt weer in de interne METS opgeslagen. Niet duidelijk hoe dat evt. kan in apart systeem.
+
+Inlog:
+http://archivematica.sandbox.socialhistoryservices.org 
+username: admin en password: II59c0ll#   ( hfdletter i hfdletter i cijfer 5 cijfer 9 kleine letter c cijfer 0 kleine letter L kleine letter L teken # )
+
+User manual:
+https://wiki.archivematica.org/User_manual_1.2
+
+Uploaden bestanden (sortingarea)
+Filezilla
+host: archivematica.sandbox.socialhistoryservices.org
+protocol: SFTP
+user: root
+ww: zelfde als boven
+bij tab 'advanced' invullen achter default remote directory: /home/devadmin
+
+
+
+

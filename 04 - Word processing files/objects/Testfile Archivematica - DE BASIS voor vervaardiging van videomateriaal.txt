@@ -1,0 +1,148 @@
+DE BASIS voor vervaardiging van videomateriaal
+In DE BASIS voor vervaardiging van videomateriaal zijn de minimumeisen vastgelegd voor het maken van een digitale kopie van videodragers. Omdat in veel gevallen het digitaliseren van videomateriaal eenmalig is – het materiaal is te kwetsbaar en/of de afspeelapparatuur te zeldzaam geworden –  is er sprake van (anders dan bij andere onderdelen van DE BASIS) substitutie-digitalisering en zijn de minimum eisen hierop aangepast. Voor born digital audiomateriaal kan deze richtlijn worden gebruikt in de keuze van archiverings- en online raadpleegbestanden.   
+Vier soorten bestanden
+Bij de vervaardiging van videomateriaal maak je bij voorkeur een onderscheid tussen vier soorten bestanden naargelang de functie die ze vervullen. 
+* Het moederbestand is de eerste digitale kopie van de originele video-opname en vormt de basis voor alle verdere kopieën. Het is niet persé de bewaarkopie. 
+* Het archiveringsbestand is een digitale kopie in de hoogst mogelijke kwaliteit - bij voorkeur voldoende hoog om het origineel in geval van vernietiging of beschadiging te vervangen. Het is dit bestand dat voor de lange duur zal worden opgeslagen en is daarom opgeslagen in een zo duurzaam mogelijk formaat. Dit bestand is in veel gevallen gelijk aan het moederbestand – maar zeker niet altijd.  
+* Het reproductiebestand is een tussenbestand dat gebruikt wordt voor het maken van verschillende soorten raadplegingsbestanden. De kwaliteit van dit bestand en het gebruik van compressie wordt bepaald door het raadpleegbestand met de hoogste kwaliteitseisen. 
+* Het raadpleegbestand is een digitale kopie die gebruikt wordt om een video opname digitaal (online) ter beschikking te stellen. Voor deze bestanden gebruik je over het algemeen genomen lossy compressie.
+Er kan uit economische overwegingen besloten worden om dezelfde specificaties[RG1] te gebruiken voor verschillende soorten bestanden. Hierdoor bespaar je opslagruimte en transcoderingstijd en infrastructuur. Het raadpleegbestand zal veelal samenhangen met het gebruikte CMS of MAM systeem. 
+Het “eerste” moederbestand
+Het moederbestand is - zie bovenstaande - de eerste digitale kopie van de originele video-opname en vormt de basis voor alle verdere kopieën. Dit moederbestand ontstaat door omzetting van een analoge (VHS, ¾” U-matic, Video 8, Betacam SP, etc) of digitale (Digital Betacam, MiniDV) video naar een digitaal bestandsformaat. Bewaar tijdens het digitaliseringstraject steeds een onbewerkte versie van het moederbestand. Hou het origineel (m.a.w. de videoband) bij zolang je geen sluitende zekerheid hebt over de kwaliteit en de langetermijnbewaring van het archiveringsbestand. Omdat videodragers vaak kwetsbaar zijn en de afspeelapparatuur snel veroudert, komt het digitaliseren van video over het algemeen neer op substitutiedigitalisering.
+
+Stel de digitaliseringsapparatuur in
+Om het beoogde kwaliteitsniveau te behalen is het belangrijk dat de digitaliseringsapparatuur correct ingesteld wordt en dat het bronmateriaal in optimale conditie is.  Voer daarom steeds de volgende routinecontroles: 
+Minimumrichtlijn
+* Inspecteer en reinig de videobanden voordat je start met de digitalisering. De aanwezigheid van stofdeeltjes en ander vuil kan resulteren in kwaliteitsverlies (cf. drop-outs (http://www.projectcest.be/index.php/Glossarium#Dropout), ofwel het tijdelijk wegvallen van het videosignaal).
+* Inspecteer of het weergaveapparaat in goede staat  verkeerd. Ingesleten aandrukrollen kunnen de band vernielen, afgesleten en vervuilde (regelmatig reinigen) afspeelkoppen en ingesleten drums zorgen voor een slechte weergave. Bij het digitaliseren van grote partijen is onderhoud noodzakelijk, ook voor servicemanuals en spareparts.
+* Controleer of de digitaliseringsapparatuur correct is aangesloten. De uitgangen van het videotoestel kunnen bijvoorbeeld afhankelijk zijn van het type analoog videosignaal (bv. Composiet (http://www.projectcest.be/index.php/Glossarium#Composiet), component (http://www.projectcest.be/index.php/Glossarium#Component) of Y/C (http://www.projectcest.be/index.php/Glossarium#Y.2FC)). Gebruik voor verouderde digitale tapeformaten (zoals Digital Betacam, D1, D2 en D3) de Serial Digital Interface (SDI) uitgang van het afspeeltoestel. Afspeeltoestellen voor analoge formaten hebben vanzelfsprekend geen SDI-uitgang. Analoge afspeeltoestellen kunnen via de Time Base Corrector aangesloten worden op een afspeeltoestel voor Digital Betacam, dat dan vervolgens wel via de SDI-uitgang  verbonden kan worden met de videocaptatiekaart of het videocaptatietoestel. Voor (digitale) DV-formaten (zoals DVCAM en MiniDV) is het aanbevolen om niet de SDI-uitgang maar de Firewire-uitgang van het DV-afspeeltoestel te gebruiken (zie ook de discussie rondom deze problematiek onder het kopje selecteer de codering van het videosignaal).
+* Controleer of de drager en het signaal van de video-opname correct geïdentificeerd zijn.1
+* Digitaliseer zo mogelijk ook de volgende ancillary data/metadata: VANC signalen (https://en.wikipedia.org/wiki/Ancillary_data), de WSS (widescreen signaling https://en.wikipedia.org/wiki/Widescreen_signaling), timecode (https://en.wikipedia.org/wiki/Timecode) en TT (teletekst).
+* Vermijd subjectieve beslissingen bij het instellen van de helderheid en kleuren. Maak hiervoor gebruik van een Time Base Corrector (TBC) en een waveform vectorscoop:
+o Een Time Base Corrector (TBC) (http://en.wikipedia.org/wiki/Time_base_correction) is een toestel dat tussen de afspeelapparatuur en het digitaliseringsapparaat wordt geplaatst om instabiele signalen te stabiliseren. Analoge videosignalen op oude videotapes zijn immers vaak niet stabiel genoeg om te worden overgenomen door moderne videoapparatuur. Gebruik een goede TBC, en probeer indien mogelijk testen te doen met meerdere TBC-toestellen om te bepalen welk toestel het beste resultaat geeft in combinatie met een bepaald afspeeltoestel. Hou er wel rekening mee dat het gebruik van een TBC het beeld mogelijk met één frame vertraagt. Controleer bij het gebruik van een TBC dus of het geluid nog synchroon loopt met het beeld, en vertraag eventueel het geluid in gelijke mate met het beeld opdat beiden terug synchroon lopen.
+o Stel de helderheid en kleuren af met behulp van een waveform vectorscoop (doe dit in regel binnen een gestelde standaard, bijv. 601/709 of rec 103-2000) (http://www.projectcest.be/index.php/Glossarium#Waveform_vectorscoop) in combinatie met een gekalibreerde videomonitor en een Time Base Corrector (TBC). Met sommige TBC-toestellen kun je niet alleen de sterkte van het videosignaal aanpassen, maar ook het zwartniveau (http://www.projectcest.be/index.php/Glossarium#Zwartniveau), de chrominantie (http://www.projectcest.be/index.php/Glossarium#Chrominantie) en de kleurfase (http://www.projectcest.be/index.php/Glossarium#Kleurfase). Streef naar het benaderen van de originele kwaliteit en niet een verbeterde kwaliteit. 
+Aanbevolen wordt hierbij een professionele TBC te gebruiken omdat deze ingreep nagenoeg onmogelijk ongedaan te maken is. Sommige TBC's zijn voorzien van een "Procamp" waarin je levels kunt wijzigen. Gebruik in dat geval een gekalibreerde videomonitor in combinatie met een waveform monitor (http://www.tek.com/baseband-video-test-solutions) 
+o Als een kleurenbalk aanwezig is op de videotape, stel dan de kleuren af met behulp van deze kleurenbalk en een waveform vectorscoop. Controleer wel steeds of de kleurenbalk daadwerkelijk een relatie heeft tot de rest van de opnamen op de originele drager en niet foutief is mee gekopieerd. Als er geen kleurenbalk aanwezig is op de videotape, gebruik dan een testtape met een kleurenbalk om de apparatuur af te stellen voordat je begint met digitaliseren. Respecteer bij het instellen van de helderheid en kleuren gangbare standaarden als de ITU Recommendation BT.601 / 7092 en de EBU Technical Recommendation R103-2000.3 
+* Kwaliteitscontrole:  Doe een filecheck op audio- video- en container/wrapper niveau, hiermee spoor je tijdens het digitaliseren fouten op en kun je deze herstellen. Houdt tijdens de kwaliteitscontrole de brondrager achter de hand daar fouten in de file ook al op de brondrager kunnen staan.
+Selecteer een containerformaat
+Het containerformaat bepaalt bij videomateriaal de wijze waarop de digitaal gecodeerde beeld- en geluidsignalen verpakt worden in een computerbestand. De 'container' of 'wrapper' is als een envelop die verschillende componenten bevat: o.a. het beeldsignaal, het geluidssignaal en de ondertiteling. De verschillende signalen kunnen daarbij gebruik maken van verschillende codecs. Merk op dat niet alle containerformaten compatibel zijn met alle codecs. Bij het “eerste” (tijdelijk) moederbestand is het belangrijk om een containerformaat te kiezen dat je eenvoudig kan omzetten naar de gewenste archiverings-, reproductie- en raadplegingsformaten. Kies een containerformaat in functie van de tools en expertise die je daarvoor in huis hebt.
+Minimumrichtlijn 
+* Gebruik een containerformaat dat geschikt is voor het verpakken van ongecomprimeerde of lossless gecomprimeerde video- en audiostreams.
+* Gebruik een containerformaat dat voldoende technische metadata kan bevatten om de verpakte video- en audiostreams te documenteren.
+* Verifieer of je over de nodige (open source) tools en expertise beschikt om het “eerste” (tijdelijke) moederbestand te transcoderen naar het gewenste formaat voor het archiverings-, reproductie- en raadplegingsbestand. Door open source tools te gebruiken vergroot je de kans dat je ook in de toekomst over de nodige tools zal beschikken om afgeleide bestanden te maken van het moederbestand.
+* Gebruik een containerformaat dat toelaat om het oorspronkelijke aantal audiokanalen te behouden. Bewaar een geluidsopname in mono als een opname met twee identieke kanalen (‘dubbel mono’ ). Zorg daarbij dat beide kanalen in fase zijn. 
+Aanbevolen richtlijn 
+Gebruik een open en goed gedocumenteerd containerformaat. Maar verifieer steeds of het formaat over de noodzakelijke functionaliteiten beschikt, of je de nodige tools en expertise ter beschikking hebt om het formaat te transcoderen en of het formaat door het digitaliseringslab tegen een redelijke kostprijs geleverd kan worden.
+Aanbevolen containerformaten zijn: 
+* MKV (http://www.projectcest.be/index.php/MATROSKA,_MKV,_MKA) wanneer je een open containerformaat verkiest. MKV kan virtueel elke bitstream verpakken, maar er zijn nog maar weinig best practices uit de erfgoedsector bekend. De software voor het transcoderen en valideren van MKV is vrij beschikbaar.
+* MXF (http://www.den.nl/standaard/206/) is een containerformaat dat wordt gebruikt om een aantal verschillende audio- en video bit streams, ondertitels en descriptieve metadata te verpakken. MXF is theoretisch een codec-agnostische container en hij kan gebruikt worden om video in verschillende encoderingen te verpakken, zoals bijvoorbeeld ongecomprimeerde video, MPEG-2 of JPEG2000 in lossy en lossless modus. De profielspecificaties voor gebruik met video zijn nog steeds zeer nauw verbonden met de hardware en de software die werd gebruikt voor de instroom en de creatie van de videobestanden. Om het risico op problemen met de uitwisselbaarheid te beperken is het aanbevolen gebruik te maken van het OP1a profiel. Hou er echter rekening mee dat er verschillende versies bestaan van het OP1a-profiel (http://www.digitalpreservation.gov/formats/fdd/fdd000266.shtml) die specifiek zijn voor producenten van videosoftware. Als je MXF wilt gebruiken als containerformaat voor je archiveringsbestand, hou er dan rekening mee dat je het kan gebruiken en transcoderen met open source software (bv. FFmpeg or LibAVI) om niet afhankelijk te zijn van specifieke propriëtaire software.
+* AVI (http://www.den.nl/standaard/124/) of MOV (http://www.den.nl/standaard/193/) wanneer je slechts over beperkte expertise en tools beschikt om videobestanden af te spelen en te transcoderen. Beiden zijn gesloten formaten, maar de specificaties zijn vrij beschikbaar en ze worden door vrijwel alle mediaspelers voor respectievelijk Windows, Mac en Linux ondersteund. AVI is een eenvoudige container met een beperkt aantal eigenschappen. AVI biedt bijvoorbeeld geen gestandaardiseerde manier om de informatie met betrekking tot de aspect ratio van een video bit stream te encoderen. Dit betekent dat wanneer een bestand wordt afgespeeld in bijvoorbeeld VLC of Quicktime spelers, de juiste aspect ratio voor weergave niet automatisch wordt geselecteerd. AVI steunt op de codec om de aspect ratio voor weergave weer te geven 
+
+Selecteer de codering van het videosignaal
+De codering van het videosignaal omvat de parameters die gebruikt worden om het originele videosignaal om te zetten in een discreet signaal, in het bijzonder de bemonsteringsfrequentie (sample rate http://www.projectcest.be/index.php/Glossarium#Bemonsteringsfrequentie), beeldsnelheid (frame rate ), beeldgrootte (frame size), beeldverhouding (aspect ratio) en bitdiepte (bit depth). 
+Minimumrichtlijn
+* Gebruik een open codec zonder compressie of met lossless compressie voor de codering van het videosignaal. Lossy compressie wordt in het “eerste” (tijdelijk) moeder- en archiveringsbestand afgeraden omdat het bij digitaliseren van video over het algemeen gaat om substitutie en in dat geval moet elk verlies aan beeldinformatie voorkomen te zien worden.
+* Gebruik voor het videosignaal bij voorkeur een bitdiepte (bit depth) van 10 bits. Een uitzondering hierop is Betacam IMX omdat uit testen is gebleken dat de laatste twee bits steeds leeg zijn. In dit geval volstaat dus een bitdiepte van 8 bits.
+* Behoud de oorspronkelijke beeldgrootte (frame size) van de video. Vermijd dus dat het beeld wordt vergroot of verkleind.
+* Behoud de oorspronkelijke beeldverhouding (aspect ratio) van de video. Maak, indien nodig, gebruik van letter- of pillarboxes.
+* Behoud de oorspronkelijke beeldsnelheid (frame rate) van de video.
+* Behoud het oorspronkelijke beeldtype (frame type) van de video. Vermijd dus interlacing als het origineel niet interlaced (dus progressief) is en vermijd ook deinterlacing als het origineel wel interlaced is. Bij de digitalisering van video zal het origineel bijna steeds interlaced zijn.
+* Behoud de oorspronkelijke veldorde (field order) van de video indien het origineel interlaced is.
+* Gebruik voor de digitalisering van analoog naar digitaal standaard 4:2:2 chroma subsampling, in overeenstemming met de ITU Recommendation BT.601 (vroeger gekend als de CCIR 601-standaard).
+* Gebruik voor transcodering van digitale videobanden naar digitale videobestanden de chroma subsampling die gebruikt wordt door de digitale videoband (bijvoorbeeld voor Digital Betacam is dit 4:2:2, voor DV is dit 4:1:1 bij NTSC of 4:2:0 bij PAL). 
+
+Aanbevolen richtlijn
+* Gebruik de lossless FFV1-codering (http://www.projectcest.be/index.php/FFV1). De codecs en specificaties zijn beschikbaar via de FFmpeg-bibliotheek die door de meeste open source mediaspelers gebruikt wordt.
+* Gebruik de lossless JPEG2000-codering (http://www.den.nl/standaard/38/JPEG2000). Gebruik bij voorkeur de OpenJPEG-bibliotheek voor het maken van JPEG2000-streams.
+* Wanneer je gebruik maakt van gepatenteerde ongecomprimeerde of lossless codecs (zoals bijvoorbeeld de codecs die worden gebruikt door de populaire video captatie systemen van AJA (http://www.projectcest.be/index.php/AJA) Video Systems of Blackmagic Design http://www.projectcest.be/index.php/Blackmagic), neem dan de volgende richtlijnen in acht:
+o Voorzie dat je de bestanden met de gepatenteerde codecs kan gebruiken en transcoderen met open source software (bv. FFmpeg or LibAVI) om niet afhankelijk te zijn van specifieke propriëtaire software.
+o Zorg dat je over de noodzakelijke codecs en expertise beschikt om het ‘eerste’ (tijdelijke) moederbestand op korte termijn te transcoderen naar de aanbevolen archiveringsformaten en -codecs.
+o Indien je het ‘eerste’ (tijdelijke) moederbestand niet op korte termijn kan transcoderen, volg dan nauwgezet de ondersteuning van de codecs door hard- en softwareproducenten en voorzie dat je tijdig kan transcoderen wanneer de ondersteuning wegvalt.
+Voor 'born digital video' in een DV-formaat (zoals DVCAM en MiniDV)  zijn er twee manieren van behoud of “digitalisering” mogelijk. In het kader van deze DE BASIS voor videomateriaal is geen eenduidig antwoord gevonden welke methode prevaleert4. 
+* Methode 1 gaat er vanuit de DV-codec (http://www.projectcest.be/index.php/DV) met de daaraan verbonden lossy compressie te behouden. DV is een standaard die is gepubliceerd en wordt ondersteund door de belangrijkste producenten van zowel hardware als software. Bij digitalisering op deze manier is het aanbevolen is om de volgende richtlijnen in acht te nemen:
+o Gebruik in tegenstelling tot bij de digitalisering van andere digitale tapeformaten (zoals Digital Betacam, D1, D2 en D3) niet de SDI-uitgang maar de Firewire-uitgang van het DV-afspeeltoestel. Op die manier wordt de DV-tape benaderd als digitale data (en niet als een videosignaal) en wordt alle data gemigreerd in zijn oorspronkelijke formaat.5
+o Voorzie dus dat je de bestanden met de DV-codec kan gebruiken en transcoderen met open source software (bv. FFmpeg or LibAVI) om niet afhankelijk te zijn van specifieke propriëtaire software.
+o Om het aantal verschillende types van archiveringsbestanden beperkt te houden, kun je mogelijk overwegen om ze te harmoniseren en om bestanden met een DV-codec te transcoderen naar een ander aanbevolen archiveringsformaat en -codec. Houd er hierbij echter rekening  mee dat je dan een aantal voordelen van het behoud van de oorspronkelijke DV-codec mist. Als je toch wenst te transcoderen naar een ander aanbevolen archiveringsformaat en –codec, zorg dat je dan over de noodzakelijke codecs en expertise beschikt.
+* Methode 2 maakt juist wel gebruik van de SDI uitgang. Er wordt hierbij van uitgegaan dat de DV-player de optimale codec bevat om een band weer te geven. Hiermee heb je Field Order issues uitgesloten. Digitaliseer binnen digitaal domein (SDI) naar een gewenst formaat.
+o Nadeel van deze methode is dat de video wordt gedecomprimeerd en heel wat metadata wordt weggegooid en daarmee informatie verloren gaat over het al dan niet verhullen van fouten door het DV-afspeeltoestel of over de productie van drop-outs.
+o Vermijd bij deze methode ruisonderdrukking of andere restauratie-ingrepen op het originele videosignaal bij de aanmaak van het moederbestand.
+
+Bepaal de codering van het geluidssignaal
+De codering van het geluidssignaal omvat de parameters die gebruikt worden om het analoge geluidssignaal om te zetten in een discreet signaal, in het bijzonder de bemonsteringsfrequentie (sample rate) en de bitdiepte (bit depth).
+Minimumrichtlijn
+* Gebruik Linear Pulse Code Modulation voor de codering van het geluidsignaal.
+* Pas geen compressie toe.
+* Gebruik een bitdiepte (bit depth) van 16 bits.
+* Gebruik een bemonsteringsfrequentie (sample rate) van 48 Khz.
+Aanbevolen richtlijn
+* Vermijd ruisonderdrukking of andere restauratie-ingrepen op het originele geluidssignaal bij de aanmaak van het moederbestand.
+
+Archiverings-, reproductie- en  raadpleegbestanden
+
+Minimumrichtlijn
+* Gebruik voor het archiveringsbestand een open containerformaat en codec. Dit waarborgt dat bestanden op lange termijn toegankelijk blijven.
+* Gebruik voor het reproductiebestand een containerformaat en codec die goed ondersteund wordt. Dit waarborgt dat je organisatie makkelijk toegang heeft tot de nodige software en hardware voor het beheer van de opname. Gebruik voor het raadplegingsbestand een containerformaat en codec die in elke gangbare browser of mediaspeler leesbaar zijn. 
+* Gebruik voor het raadplegingsbestand een containerformaat en codec met de grootst mogelijke toegankelijkheid voor je doelgroep. De keuze voor het formaat van raadpleegbestand en de daarin gebruikte kwaliteitsparameters wordt bepaald door de context waarin het wordt gebruikt, en is onderhevig aan snelle veranderingen. Liefst worden open formaten gebruikt maar afwegingen op kwalitatieve gronden en eisen voor presentatie op specifieke platforms maken dit niet altijd mogelijk. 
+Aanbevolen richtlijn 
+Aanbevolen containerformaten en codecs voor archiverings- en reproductiebestanden:
+* MKV-containerbestand met lossless FFV1-codering voor het videosignaal en LPCM-codering voor het geluidsignaal. Deze combinatie gebruikt enkel open standaarden en tools voor het afspelen en transcoderen die vrij beschikbaar zijn via de ffmpeg-bibliotheek.
+* MXF-containerbestand met losssless JPEG2000-codering voor het videosignaal en LPCM-codering voor het geluidsignaal. Deze combinatie biedt uitgebreide mogelijkheden voor het maken van verschillende, lossy raadplegingsbestanden. Om het risico op problemen met de uitwisselbaarheid te beperken is het aanbevolen gebruik te maken van het OP1a profiel. Hou er echter rekening mee dat er verschillende versies bestaan van het OP1a-profiel die specifiek zijn voor producenten van videosoftware. Als je MXF wil gebruiken als containerformaat voor je archiveringsbestand, hou er dan rekening mee dat je het kan gebruiken en transcoderen met open source software (bv. FFmpeg or LibAVI) om niet afhankelijk te zijn van specifieke propriëtaire software.
+*  Wanneer je gebruik maakt van gepatenteerde ongecomprimeerde of lossless codecs neem dan de reeds in het bovenstaande genoemde richtlijnen (zie onder kopje codering “Selecteer de codering van het videosignaal” en aanbevolen richtlijn) in acht. 
+Aanbevolen containerformaten en codecs voor raadplegingsbestanden:
+* AVI en MOV zijn containerformaten die door vrijwel alle tools voor Linux, Windows en Mac ondersteund worden. AVI is een eenvoudige container met een beperkt aantal eigenschappen. AVI biedt bijvoorbeeld geen gestandaardiseerde manier om de informatie met betrekking tot de aspect ratio van een video bit stream te encoderen. Dit betekent dat wanneer een bestand wordt afgespeeld in bijvoorbeeld VLC of Quicktime spelers, de juiste aspect ratio voor weergave niet automatisch wordt geselecteerd. AVI steunt op de codec om de aspect ratio voor weergave weer te geven.
+* De H.262 en H.264 videocodecs zijn twee industriestandaarden die breed ondersteund worden. Met name in commerciële videoproductie, digitale televisie en op het web, worden deze twee videocoderingen veel gebruikt.
+o H.262 wordt ook aangeduid als het MPEG-2 formaat en wordt typisch gebruikt in digitale televisie, door professionele videocamera's die het XDCAM en MPEG IMX formaat gebruiken en in Blue-Ray Discs.
+o H.264 wordt ook aangeduid als het MPEG-4 AVC formaat en wordt typisch gebruikt in Blu-ray Discs, HDTV, Digital Cinema en door videostreamingdiensten als Vimeo, YouTube en iTunes.
+* HTML 5 biedt ondersteuning voor de integratie van video in een webpagina. Daarbij werd getracht om een consensus te bouwen rond het gebruik van een specifieke open, lossy codec. Die consensus werd vooralsnog niet bereikt maar kandidaten zijn:
+o Ogg-container met een Theora-videostream en een Vorbis- of Opus-audiostream
+o WebM-container met een [VP8]-videostream en een Vorbis- of Opus- audiostream
+o MP4-container met een H.264-videostream en een AAC-audiostream.
+* Voor raadplegingsbestanden is het beter om interlaced video te de-interlacen. Op computerscherm wordt video sowieso gedeinterlaced. Maar het is beter om dat proces zelf te bepalen en het raadplegingsbestand progressive te coderen in plaats van te vertrouwen op de deinterlacing door het beeldscherm van de gebruiker. 
+Op hedendaagse beeldschermen kan bij raadplegingsbestanden het gedeelte in de overscan voor ongewenste afleiding zorgen. Op  (oude) beeldbuisschermen (ook wel CRT schemen) werd dit voor de kijker afgeschermd. Wanneer het gedeelte in de overscan zichtbaar is, tast dit de beleving aan. Het kan gewenst zijn om dit te maskeren met een zwarte rand. Bij het met zwart maskeren van deze ongewenste gedeelten van het beeld mag nooit het beeld uitgesneden (gecropt) worden, maar moet de  oorspronkelijke resolutie bewaard blijven. Het masker moet dus als een bovenlaag op het beeld gelegd worden. Hierdoor ontstaat een rustig beeld zonder dat de beeldinformatie wordt vervormd of de beeldlijnen worden geherdefinieerd (geresampled). Mocht het materiaal toch nog op een originele beeldbuisscherm vertoond worden, is het beter deze aanpassing achterwege te laten. Bij online raadpleegbestanden mag het beeld wel uitgesneden worden omdat hier toch al sprake is van een geschaalde herberekening van de beeldlijnen.
+Specifieke metadata voor videomateriaal 
+Voor videomateriaal zijn er specifieke metadata schema’s beschikbaar. De volgende schema’s worden aanbevolen:
+
+* Maak gebruik van de EN15744 standaarddatastructuur (http://projectcest.be/index.php/EN_15744) voor de basisregistratie van video-opnames betreffende fictie en speelfilm.  
+* Maak gebruik van de EN15907 standaarddatastructuur (http://projectcest.be/index.php/EN_15907) voor de beschrijving van film- en videoproducties.
+* Maak gebruik van de EBUCORE standaarddatastructuur voor de beschrijving van TV-uitzendingen.
+* Maak gebruik van de IASA Cataloguing Rules voor het beschrijven van video-opnames in een bibliotheekcatalogus.
+* Maak gebruik van de FIAF Cataloguing Rules (http://projectcest.be/index.php/FIAF) voor het beschrijven van film- en videoproducties.
+* Maak gebruik van de GTAA terminologie voor het doorzoekbaar maken van video-opnames op onderwerp, genre, plaats en maker.
+
+Meer weten?
+* AVA_NET Kennisbank audiovisuele archivering: http://www.avarchivering.nl/
+* Lorrain, Emanuel, Een beknopte gids voor het kiezen van een digitaal videoformaat voor moederbestanden, PACKED, 2014 http://scart.be/?q=nl/content/een-beknopte-gids-voor-het-kiezen-van-een-digitaal-videoformaat-voor-archiveringsbestanden
+* IASA Technical Committee, Guidelines on the Production and Preservation of Digital Audio Objects, ed. by Kevin Bradley. Second edition 2009. (= Standards, Recommended Practices and Strategies, IASA-TC 04). http://www.iasa-web.org/tc04/audio-preservation
+* FADGI Digital File Formats for Videotape Reformatting http://www.digitizationguidelines.gov/guidelines/video_reformatting_compare.html
+
+Verantwoording
+
+Dit is een herziene, tweede versie van DE BASIS voor vervaardigen van (audio)visueel materiaal (december 2015). De eerste versie stamt uit 2009. Deze herziene tekst is opgesteld door DEN op basis van een expertmeeting op 15 april 2014 en input op de voorsteltekst door experts werkzaam zijn op het gebied van audiovisuele digitalisering. Deze tekst loopt zoveel mogelijk op met de richtlijnen voor het digitaliseren van video (http://projectcest.be/index.php/Video_digitaliseren) van het Vlaamse PACKED Project CEST. 
+Denk mee! 
+
+Deze tekst staat altijd open voor commentaar. Wil je reageren of meedenken? Maak dan gebruik van het onderstaande reactieformulier of lever je commentaar rechtsreeks in de tekst via het bijgevoegde MSWord- of PDFbestand. Stuur deze naar den[at]den.nl onder vermelding van DE BASIS voor vervaardiging van beeld.
+
+
+
+
+
+ 
+1 Voor de identificatie van dragers en codering kan je gebruik maken van de volgende websites:
+* Videotape Identification and Assessment Guide (Texas Commission on the Arts)
+* The Little Reference Guide for Small Video Collections (Barry Van der Sluis - The Little Archives of the World)
+* Format Identification Guide (Sarah Stauderman & Paul Messier - Video Preservation Website)
+* Memoriav – Préserver le patrimoine audiovisuel / Memoriav – Audiovisuelle Kulturguterhalten
+
+2 Voor meer informatie, zie https://www.itu.int/rec/R-REC-BT.601/en en https://www.itu.int/rec/R-REC-BT.709/en. BT. 709 is voor high definition beeldweergave.
+3 Voor meer informatie, zie https://tech.ebu.ch/docs/r/r103.pdf
+4 Voor meer informatie, zie David Rice en Chris Lacinak, Digital Tape Preservation Strategy: Preserving Data or Video?, AVPreserve, 2009, https://www.avpreserve.com/dvanalyzer/dv-preservation-data-or-video/
+5 Wanneer je de Serial Digital Interface (SDI) uitgang van het DV-afspeeltoestel zou gebruiken, wordt de DV-tape beschouwd als een verouderd videotapeformaat en wordt heel wat metadata weggegooid, de video gedecomprimeerd, en informatie onmogelijk gemaakt over het al dan niet verhullen van fouten door het DV-afspeeltoestel of over de productie van drop-outs.
+[RG1]Opmerking.
+---------------
+
+------------------------------------------------------------
+
+---------------
+
+------------------------------------------------------------
+

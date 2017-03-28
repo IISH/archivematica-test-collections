@@ -1,0 +1,2 @@
+# Treat all files like binary files. Prevents Git from changing the line endings.
+* binary
